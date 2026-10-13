@@ -16,13 +16,13 @@ What you're building and in what order. Each phase step has its own tutorial fil
 - [ ] 1.4 Settings split + `.env` + first feature-branch PR — [`phases/01-4-settings-env.md`](phases/01-4-settings-env.md)
 - [ ] 1.5 Base template + home page + static files — [`phases/01-5-base-template.md`](phases/01-5-base-template.md)
 
-## Phase 2 — Auth & Profile *(coming next)*
-- [ ] 2.1 User registration view + form
-- [ ] 2.2 Login / logout views
-- [ ] 2.3 Password reset flow
-- [ ] 2.4 `Profile` model (display name, bio, timezone, avatar)
-- [ ] 2.5 Profile view + edit page
-- [ ] 2.6 Access control: all notes/calendar pages require login
+## Phase 2 — Auth & Profile
+- [ ] 2.1 User registration view + form — [`phases/02-1-signup.md`](phases/02-1-signup.md)
+- [ ] 2.2 Login / logout views — [`phases/02-2-login-logout.md`](phases/02-2-login-logout.md)
+- [ ] 2.3 Password reset flow — [`phases/02-3-password-reset.md`](phases/02-3-password-reset.md)
+- [ ] 2.4 `Profile` model (display name, bio, timezone) — [`phases/02-4-profile-model.md`](phases/02-4-profile-model.md)
+- [ ] 2.5 Profile view + edit page — [`phases/02-5-profile-view.md`](phases/02-5-profile-view.md)
+- [ ] 2.6 Access control: auth-branching home + first tests — [`phases/02-6-access-control.md`](phases/02-6-access-control.md)
 
 ## Phase 3 — Notes CRUD
 - [ ] 3.1 `Note` model (title, body, created_at, owner, day)

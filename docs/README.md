@@ -12,7 +12,14 @@ Work through phases in order. Each one takes 15–60 minutes if you type everyth
 - [`phases/01-4-settings-env.md`](phases/01-4-settings-env.md) — move settings to a `.env` file (12-factor config)
 - [`phases/01-5-base-template.md`](phases/01-5-base-template.md) — base template, home page, static files, first URL route
 
-## Phase 2 — Auth & Profile (coming soon)
+## Phase 2 — Auth & Profile
+- [`phases/02-1-signup.md`](phases/02-1-signup.md) — accounts app, SignupForm, auto-login
+- [`phases/02-2-login-logout.md`](phases/02-2-login-logout.md) — built-in LoginView/LogoutView, session cookies, auth-aware nav
+- [`phases/02-3-password-reset.md`](phases/02-3-password-reset.md) — the four-view flow + dev console email backend
+- [`phases/02-4-profile-model.md`](phases/02-4-profile-model.md) — Profile sidecar model + post_save signal + Django admin
+- [`phases/02-5-profile-view.md`](phases/02-5-profile-view.md) — @login_required profile view, ModelForm with timezone choices
+- [`phases/02-6-access-control.md`](phases/02-6-access-control.md) — auth-branching home, conventions doc, first tests
+
 ## Phase 3 — Notes CRUD (coming soon)
 ## Phase 4 — Calendar views (coming soon)
 ## Phase 5 — AI day summarizer (coming soon)
